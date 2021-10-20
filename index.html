@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="triangle">
+            <img src="image/Capture.PNG" class="laptop" alt="laptop">
+        </div>
+
+        <div class="header">
+            <div class="links">
+                <ul>
+                    <li class="active li">Home</li>
+                    <li class="li">Services</li>
+                    <li class="li">About us</li>
+                    <li class="li">Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text">
+            <h1>your logo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Ab quas, asperiores ipsa, recusandae, suscipit iste quibusdam minima repellat esse
+                dolores nobis earum optio voluptate dolore ratione debitis quam distinctio qui.</p>
+            <button>Read more</button>
+        </div>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+        </div>
+    </div>
+</body>
+
+<script>
+    var lists = document.querySelectorAll('.li');
+    for (var i = 0; i < lists.length; i++) {
+        lists[i].onclick = function () {
+            for (var i = 0; i < lists.length; i++) {
+                lists[i].classList.remove('active');
+            }
+            this.classList.add('active');
+        }
+    }
+</script>
+
+</html>

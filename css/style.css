@@ -1,0 +1,87 @@
+body{
+    background-color: #4262b4;
+
+}
+.container{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #243a73;
+    overflow: hidden;
+    border: 2px solid #EEE;
+    box-shadow: 2px 2px 6px #eee, -2px -2px 6px #eee;
+}
+.header ul{
+    list-style: none;
+}
+.header ul li{
+    float:left;
+    margin-right:10px;
+    padding:5px;
+    cursor: pointer;    
+}
+.active{
+    border:1px solid #EEE;
+    border-radius: 10px;
+    padding:5px
+}
+.triangle{
+    position: absolute;
+    top: 17px;
+    right: -200px;
+    width: 550px;
+    height: 550px;
+    background-color: #FFF;
+    transform: rotate(45deg);
+    border-radius: 105px;
+    overflow: hidden;
+}
+.triangle img{
+    margin-top: 245px;
+    transform: rotate(-45deg);
+    width: 300px;
+    height: 240px;
+}
+
+.header .links{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 30px;
+    display: inline;
+    margin: 30px;
+}
+.text{
+    margin-top: 105px;
+    margin-left: 40px;
+}
+.text h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.text p{
+    line-height: 1.7;
+    color: white;
+    width: 500px;
+}
+.text button{
+    border: 1px solid #EEE;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    padding: 7px;
+}
+.icons{
+    margin-top: 120px;
+    margin-left: 20px;
+    color: white;
+    padding: 20px;
+}
+.icons i{
+    margin-right:15px;
+    font-size: 15px;
+}
+
